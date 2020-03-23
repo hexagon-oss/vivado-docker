@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 
 MAINTAINER z4yx <z4yx@users.noreply.github.com>
 
-# build with docker build --build-arg VIVADO_VERSION=2018.1 --build-arg VIVADO_TAR_FILE=Xilinx_Vivado_SDK_2018.1_0405_1.tar.gz -t vivado:2018.1 .
+# build with docker build --build-arg VIVADO_VERSION=2015.2 --build-arg VIVADO_TAR_FILE=Xilinx_Vivado_SDK_Lin_2015.2_0626_1.tar.gz -t vivado:2015.2 .
 
 ARG UBUNTU_MIRROR=mirror.tuna.tsinghua.edu.cn
 
